@@ -20,7 +20,7 @@ namespace Project.Models.DAO
 
         public IQueryable<sanpham> GetSanPhamsByCost()
         {
-            var sanphamList = db.sanphams.SqlQuery()
+            var sanphamList = db.sanphams.SqlQuery();
         }
     }
 }
