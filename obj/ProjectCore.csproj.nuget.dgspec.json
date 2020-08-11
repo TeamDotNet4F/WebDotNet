@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC\\source\\repos\\ProjectCore\\ProjectCore.csproj": {}
+    "D:\\.Net source\\project_dotnet\\ProjectCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\source\\repos\\ProjectCore\\ProjectCore.csproj": {
+    "D:\\.Net source\\project_dotnet\\ProjectCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\source\\repos\\ProjectCore\\ProjectCore.csproj",
+        "projectUniqueName": "D:\\.Net source\\project_dotnet\\ProjectCore.csproj",
         "projectName": "ProjectCore",
-        "projectPath": "C:\\Users\\PC\\source\\repos\\ProjectCore\\ProjectCore.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\source\\repos\\ProjectCore\\obj\\",
+        "projectPath": "D:\\.Net source\\project_dotnet\\ProjectCore.csproj",
+        "packagesPath": "C:\\Users\\jackg\\.nuget\\packages\\",
+        "outputPath": "D:\\.Net source\\project_dotnet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jackg\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -41,6 +41,10 @@
             "EntityFramework": {
               "target": "Package",
               "version": "[6.4.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
             },
             "MySql.Data": {
               "target": "Package",
@@ -69,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -52,6 +52,12 @@ namespace ProjectCore
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllerRoute(
+                    name: "Register",
+                    pattern: "{controller=User}/{action=Register}/{id?}");
+            });
         }
     }
 }
