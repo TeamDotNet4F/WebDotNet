@@ -1,0 +1,66 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Home\shop.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Home\shop.cshtml" />
+    <None Include="wwwroot\images\user.svg" />
+    <None Include="wwwroot\js\blog_custom.js" />
+    <None Include="wwwroot\js\blog_single_custom.js" />
+    <None Include="wwwroot\js\cart_custom.js" />
+    <None Include="wwwroot\js\contact_custom.js" />
+    <None Include="wwwroot\js\custom.js" />
+    <None Include="wwwroot\js\jquery-3.3.1.min.js" />
+    <None Include="wwwroot\js\product_custom.js" />
+    <None Include="wwwroot\js\regular_custom.js" />
+    <None Include="wwwroot\js\shop_custom.js" />
+    <None Include="wwwroot\plugins\easing\easing.js" />
+    <None Include="wwwroot\plugins\fontawesome-free-5.0.1\webfonts\fa-brands-400.svg" />
+    <None Include="wwwroot\plugins\fontawesome-free-5.0.1\webfonts\fa-brands-400.woff2" />
+    <None Include="wwwroot\plugins\fontawesome-free-5.0.1\webfonts\fa-regular-400.svg" />
+    <None Include="wwwroot\plugins\fontawesome-free-5.0.1\webfonts\fa-regular-400.woff2" />
+    <None Include="wwwroot\plugins\fontawesome-free-5.0.1\webfonts\fa-solid-900.svg" />
+    <None Include="wwwroot\plugins\fontawesome-free-5.0.1\webfonts\fa-solid-900.woff2" />
+    <None Include="wwwroot\plugins\greensock\animation.gsap.min.js" />
+    <None Include="wwwroot\plugins\greensock\ScrollToPlugin.min.js" />
+    <None Include="wwwroot\plugins\greensock\TimelineMax.min.js" />
+    <None Include="wwwroot\plugins\greensock\TweenMax.min.js" />
+    <None Include="wwwroot\plugins\Isotope\isotope.pkgd.min.js" />
+    <None Include="wwwroot\plugins\jquery-ui-1.12.1.custom\jquery-ui.js" />
+    <None Include="wwwroot\plugins\OwlCarousel2-2.2.1\owl.carousel.js" />
+    <None Include="wwwroot\plugins\parallax-js-master\parallax.min.js" />
+    <None Include="wwwroot\plugins\scrollmagic\ScrollMagic.min.js" />
+    <None Include="wwwroot\plugins\slick-1.8.0\fonts\slick.svg" />
+    <None Include="wwwroot\plugins\slick-1.8.0\slick.js" />
+    <None Include="wwwroot\styles\bootstrap4\bootstrap.min.js" />
+    <None Include="wwwroot\styles\bootstrap4\popper.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="MySql.Data" Version="8.0.21" />
+    <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.21" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
