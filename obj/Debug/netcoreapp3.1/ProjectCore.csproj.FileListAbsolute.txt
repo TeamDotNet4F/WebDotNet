@@ -239,7 +239,5 @@ D:\.Net source\project_dotnet\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.
 D:\.Net source\project_dotnet\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\.Net source\project_dotnet\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\.Net source\project_dotnet\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\.Net source\project_dotnet\obj\Debug\netcoreapp3.1\ProjectCore.csproj.CoreCompileInputs.cache
-D:\.Net source\project_dotnet\obj\Debug\netcoreapp3.1\ProjectCore.MvcApplicationPartsAssemblyInfo.cache
 D:\.Net source\project_dotnet\obj\Debug\netcoreapp3.1\Razor\Views\User\Register.cshtml.g.cs
 D:\.Net source\project_dotnet\obj\Debug\netcoreapp3.1\Razor\Views\User\Login.cshtml.g.cs
