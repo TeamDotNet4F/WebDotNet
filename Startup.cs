@@ -56,7 +56,7 @@ namespace ProjectCore
             {
                 endpoints.MapControllerRoute(
                     name: "Register",
-                    pattern: "{controller=User}/{action=Login}/{id?}");
+                    pattern: "{controller=User}/{action=Register}/{id?}");
             });
         }
     }
