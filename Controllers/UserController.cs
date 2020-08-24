@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using ProjectCore.Models;
+using ProjectCore.Models.DAO;
 
 namespace ProjectCore.Controllers
 {
@@ -23,9 +25,18 @@ namespace ProjectCore.Controllers
         {
             if (ModelState.IsValid)
             {
+                var result = UserDAO.checkUser(model.taikhoan, model.matkhau);
+                if (result)
+                {
 
+                }
+                
             }
             return View(model);
+        }
+        public IActionResult Login(LoginModel model)
+        {
+            return View();
         }
     }
 }

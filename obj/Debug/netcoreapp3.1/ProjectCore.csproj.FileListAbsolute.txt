@@ -241,3 +241,8 @@ D:\.Net source\project_dotnet\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnal
 D:\.Net source\project_dotnet\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\.Net source\project_dotnet\obj\Debug\netcoreapp3.1\Razor\Views\User\Register.cshtml.g.cs
 D:\.Net source\project_dotnet\obj\Debug\netcoreapp3.1\Razor\Views\User\Login.cshtml.g.cs
+D:\.Net source\project_dotnet\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\.Net source\project_dotnet\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\.Net source\project_dotnet\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\.Net source\project_dotnet\obj\Debug\netcoreapp3.1\ProjectCore.csproj.CoreCompileInputs.cache
+D:\.Net source\project_dotnet\obj\Debug\netcoreapp3.1\ProjectCore.MvcApplicationPartsAssemblyInfo.cache

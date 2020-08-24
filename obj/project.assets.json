@@ -2020,6 +2020,21 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
+      },
+      "Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "EntityFramework": "6.4.4",
+          "MySql.Data": "8.0.21",
+          "MySql.Data.EntityFrameworkCore": "8.0.21"
+        },
+        "compile": {
+          "bin/placeholder/Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.dll": {}
+        }
       }
     }
   },
@@ -7065,6 +7080,11 @@
         "system.xml.xpath.xmldocument.4.0.1.nupkg.sha512",
         "system.xml.xpath.xmldocument.nuspec"
       ]
+    },
+    "Model/1.0.0": {
+      "type": "project",
+      "path": "../Model/Model.csproj",
+      "msbuildProject": "../Model/Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -7072,6 +7092,7 @@
       "EntityFramework >= 6.4.4",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.7",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.4",
+      "Model >= 1.0.0",
       "MySql.Data >= 8.0.21",
       "MySql.Data.EntityFrameworkCore >= 8.0.21",
       "NETStandard.Library >= 2.0.3"
@@ -7102,7 +7123,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\.Net source\\Model\\Model.csproj": {
+              "projectPath": "D:\\.Net source\\Model\\Model.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
